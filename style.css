@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font: 100%/1.4 MyriadPro_Light, FangHei_Light, '微软雅黑', Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+@font-face {
+	font-family: MyriadPro_Light;
+	src: url('/resources/fonts/MyriadPro-Light.eot');
+	src: url('/resources/fonts/MyriadPro-Light.woff') format('woff'), url('/resources/fonts/MyriadPro-Light.ttf') format('truetype'), url('/resources/fonts/MyriadPro-Light.svg') format('svg');
+}
+@font-face {
+	font-family: FangHei_Light;
+	src: url('/resources/fonts/FangHei-Light.woff');
+	src: url('/resources/fonts/FangHei-Light.woff') format('woff'), url('/resources/fonts/FangHei-Light.ttf') format('truetype'), url('/resources/fonts/FangHei-Light.svg') format('svg');
+}
+.header {
+	width:100%;
+	height:81px; 
+	position:fixed; 
+	z-index:100; 
+	display:table;
+	background-color:transparent;
+}
+.footer {
+	width:100%;
+	height:140px; 
+	position:static;
+	bottom:0;
+	z-index:100; 
+	display:block;
+}
+.imgdiv {
+	display:inline-block;
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+.intro {
+	display:table;
+	position:absolute;
+	top:20%;
+	width:100%;
+	z-index:10;
+	text-align:center;
+	text-height:font-size;
+	word-wrap: break-word; 
+	word-break: normal; 
+	margin-bottom:0;
+}
+.title {
+	font-size:60px;
+	margin-top:5px;
+	margin-bottom:inherit;
+}
+.title_e {
+	font-size:30px;
+	margin-top:-15px;
+	margin-bottom:inherit;
+}
+.subtitle {
+	font-size:40px;
+	margin-top:20px;
+	margin-bottom:inherit;
+}
+.subtitle_e {
+	font-size:20px;
+	margin-top:-10px;
+	margin-bottom:inherit;
+}
+.text {
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:inherit;
+}
+.text_e {
+	font-size:15px;
+	margin-top:0;
+	margin-bottom:inherit;
+}
+.link_title {
+	font-size: 20px;
+	color: #07f;
+	text-decoration:none;
+}
+.d_link_title_over {
+	font-size:20px;
+	color:#07f;
+	text-decoration:underline;
+}
+.imgbox {
+	display:inline-block;
+	position:relative;
+	width:50%;
+	height:auto;
+	text-align:center;
+}
+.members {
+	display:block;
+	width:80%;
+	height:120px;
+	position:relative;
+	margin:auto;
+	text-align:left;
+}
+.personalimg {
+	width:auto;
+	height:80px;
+	padding:20px;
+	display:inline-block;
+	vertical-align:bottom;
+}
+.personalintro {
+	width:auto;
+	height:55px;
+	padding-left:20px;
+	padding-bottom:40px;
+	display:inline-block;
+}
+.pesiname {
+	color:#eee;
+	font-size:40px;
+	margin:-5px;
+}
+.pesiwork {
+	color:#999;
+	font-size:20px;
+	margin:0;
+	vertical-align:bottom;
+}
+.booking {
+	float:right;
+	height:30px;
+	width:auto;
+	border-radius:3px;
+	background-color: #09F;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#0af), to(#07f));
+	margin:5px;
+	padding-left:15px;
+	padding-right:15px;
+	display:block;
+	font-size:15px;
+	vertical-align:middle;
+	color:#eee;
+	text-shadow: #000 0 0 3px;
+	text-align:center;
+	line-height:33px;
+	overflow:hidden;
+	-webkit-box-shadow: 0 -1px 0 rgba(10,10,10,0.3) inset;
+}
+.booking_middle {
+	height:60px;
+	width:auto;
+	border-radius:10px;
+	background-color: #09F;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#0af), to(#07f));
+	margin:10px;
+	padding-left:30px;
+	padding-right:30px;
+	display:block;
+	font-size:30px;
+	vertical-align:middle;
+	color:#eee;
+	text-shadow: #000 0 0 5px;
+	text-align:center;
+	line-height:62px;
+	overflow:hidden;
+	-webkit-box-shadow: 0 -2px 0 rgba(10,10,10,0.3) inset;
+}
+.booking_big {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+	background-color: #09F;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#0af), to(#07f));
+	color: #FFF;
+	text-shadow: #000 0 0 10px;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:#eee;
+	-webkit-box-shadow: 0 -3px 0 rgba(10,10,10,0.3) inset;
+}
+.tabletitle {
+	text-align:center;
+	vertical-align:central;
+	line-height:normal;
+	font-size:20px;
+	height:50px;
+	color:#eee;
+	background-color:#333;
+	//border-radius:3px;
+	//-webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.5) inset;
+}
+.table {
+	text-align:center;
+	vertical-align:central;
+	line-height:normal;
+	font-size:30px;
+	height:40px;
+	color:#333;
+	background-color:#ddd;
+	//border-radius:3px;
+	//-webkit-box-shadow: 0 -2px 0 rgba(10,10,10,0.3) inset;
+}
+a {
+	color:inherit;
+	text-decoration:none;
+}
+.d_a_over {
+	color:inherit;
+	text-decoration:underline;
+}

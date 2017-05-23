@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font: 100%/1.4 MyriadPro_Light, 'PingHei-light', '微软雅黑', Helvetica, sans-serif;
+	background-color:transparent;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+@font-face {
+	font-family: MyriadPro_Light;
+	src: url('/resources/fonts/MyriadPro-Light.eot');
+	src: url('/resources/fonts/MyriadPro-Light.woff') format('woff'), url('/resources/fonts/MyriadPro-Light.ttf') format('truetype'), url('/resources/fonts/MyriadPro-Light.svg') format('svg');
+}
+a {
+	color:inherit;
+}
+.headerbody {
+	display: table;
+	position:fixed;
+	height:79px;
+	width:100%;
+	background-color:rgba(238,238,238,0.9);
+	border-bottom:1px #ccc solid;
+	text-align:center;
+	vertical-align:bottom;
+	color:#333;
+	font-size:21px;
+}
+.headerbody_w {
+	display: table;
+	position:fixed;
+	height:79px;
+	width:100%;
+	background-color:rgba(51,51,51,0.9);
+	border-bottom:1px #555 solid;
+	text-align:center;
+	vertical-align:bottom;
+	color:#eee;
+	font-size:21px;
+}
+.headersection {
+	display:inline-table;
+	height:50px;
+	width:auto;
+	position:relative;
+	font-size:inherit;
+	line-height:50px;
+	color:inherit;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:2px;
+	padding-top:28px;
+}
+.headersection_over {
+	display:inline-table;
+	height:50px;
+	width:auto;
+	position:relative;
+	font-size:inherit;
+	line-height:50px;
+	color:inherit;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:0;
+	border-bottom:2px #777 solid;
+	padding-top:28px;
+}
+.headersection_w_over {
+	display:inline-table;
+	height:50px;
+	width:auto;
+	position:relative;
+	font-size:inherit;
+	line-height:50px;
+	color:inherit;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:0;
+	border-bottom:2px #999 solid;
+	padding-top:28px;
+}
+.footerbody {
+	display:table;
+	height:140px;
+	width:100%;
+	background-color:#333;
+	border-top:1px #000 solid;
+	text-align:center;
+	vertical-align:top;
+	color:#eee;
+	font-size:21px;
+}
+.footershare {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	padding-left:8px;
+}
